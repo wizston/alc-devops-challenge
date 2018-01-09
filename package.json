@@ -1,10 +1,10 @@
 {
-  "name": "express-api-demo",
+  "name": "docker-demo",
   "version": "1.0.0",
-  "description": "A demo using express JS to build an API.",
-  "main": "server.js",
+  "description": "A docker demo using express JS to build an API.",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node index.js",
     "test": "jasmine tests/"
   },
   "keywords": [
@@ -13,7 +13,7 @@
     "demo",
     "api"
   ],
-  "author": "Bolaji Olajide 'Nuel",
+  "author": "Mubarak Imam",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.17.1",
@@ -27,10 +27,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andela-bolajide/UserManager.git"
+    "url": "git+https://github.com/codeprefect/alc-docker-demo.git"
   },
   "bugs": {
-    "url": "https://github.com/andela-bolajide/UserManager/issues"
+    "url": "https://github.com/codeprefect/alc-docker-demo/issues"
   },
-  "homepage": "https://github.com/andela-bolajide/UserManager#readme"
+  "homepage": "https://github.com/codeprefect/alc-docker-demo#readme"
 }

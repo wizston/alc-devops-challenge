@@ -1,2 +1,5 @@
 var mongoose = require('mongoose');
-mongoose.connect(process.env.DB_URL, { useMongoClient: true });
+
+var connectionString = `mongodb://${process.env.DB_HOST}/${process.env.DB_NAME}`;
+  
+mongoose.connect(connectionString, { useMongoClient: true });
